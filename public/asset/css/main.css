@@ -1,0 +1,249 @@
+.kard{
+    height: 900px;
+}
+
+.bg-1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    filter: blur(1px);
+    background-image: url('../img/ppdbbekgrond.jpg');
+    background-size: cover;
+}
+
+section h1{
+    position: relative;
+    margin: 50 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 20px;
+    color: #000000;
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 0px;
+}
+
+header.sticky ul li a .active {
+    color: #fdd818;
+}
+
+header.sticky{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: rgb(0, 0, 0);
+    width: 1300px;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.containt{
+    font-family: 'Poppins';
+    margin-top: -130px;
+}
+
+
+header.sticky ul li a{
+    color: #8BC91E;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+header.sticky .smkwikrama{
+    color: #ffffff;
+}
+
+.smkwikrama{
+    height: 50px;
+    margin-right: 400px;
+}
+
+header .smkwikrama{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins';
+    margin-top: 20px;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    transition: 0.6s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.teks-ppdb{
+    position: absolute;
+    width: 497px;
+    height: 106px;
+    left: 120px;
+    top: 145px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.contact-form input, .contact-form textarea {
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px
+}
+
+.main-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'Poppins';
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8BC91E;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.card{
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.49);
+}
+
+.footer-main .block-2 h6 {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-main .block-2 ul li {
+    margin-bottom: 10px;
+    list-style: none
+}
+
+.footer-main .block-2 ul li a {
+    font-size: 14px;
+    color: #6f6f71;
+    transition: .2s ease;
+    text-decoration: none;
+}
+
+ ::-webkit-scrollbar{
+        display: none;
+    } 
+
+.remope{
+    position: absolute;
+    width: 799.57px;
+    height: 532.5px;
+    left: 310px;
+    top: 113.15px;
+    filter: drop-shadow(5px 0px 5px rgba(0, 0, 0, 0.6));
+}
+
+.btn-main-md{
+    position: absolute;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    left: 300px;
+    top: 430px;
+    background: #8BC91E;
+    border-radius: 15px;
+}
+
+.btn-main-md:hover{
+    background: #000000;
+    color: #8BC91E;
+    transition: 0.5s;
+}
+
+.img-fluid{
+    margin-top: 15px;
+}
+
+.contact-form textarea {
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+
